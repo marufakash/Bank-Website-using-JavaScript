@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangladesh Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-page">
+        <h1>Welcome to Bangladesh Bank</h1>
+        <label for="login">Login : </label>
+        <input type="email" name="email" placeholder="Email" id="email" required>
+        <input type="password" name="password" placeholder="Password" id="password" required>
+        <button class="login-btn">Enter</button>
+    </div>
+
+    <div class="transaction-area">
+        <div class="row1">
+            <div class="deposit">
+                <h3>Deposit</h3>
+                <h2>$ <span id="current-deposit">00</span></h2>
+            </div>
+            <div class="withdraw">
+                <h3>Withdraw</h3>
+                <h2>$ <span id="current-withdraw">00</span></h2>
+            </div>
+            <div class="balance">
+                <h3>Balance</h3>
+                <h2>$ <span id="balence-amount">2000</span></h2>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div>
+                <h3>Deposit</h3>
+                <input type="text" id="deposit-amount" placeholder="$ amount you want to deposit">
+                <button class="deposit-btn btn">Deposit</button>
+            </div>
+            <div>
+                <h3>Withdraw</h3>
+                <input type="text" id="withdraw-amount" placeholder="$ amount you want to withdraw">
+                <button class="widthdraw-btn btn">Withdraw</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

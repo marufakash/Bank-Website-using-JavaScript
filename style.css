@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Login start here */
+body{
+    padding: 100px;
+}
+h1{
+    text-align: center;
+    color: rgb(44, 8, 8);
+    font-weight: 500;
+    padding: 20px 0;
+}
+label{
+    font-weight: 600;
+    font-size: 19px;
+    color: orange;
+}
+.login-page{
+    margin: 70px 0;
+    padding: 50px 70px;
+    box-shadow: 4px 4px 8px #333;
+    border-radius: 10px;
+}
+.login-page input{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(185, 176, 176);
+}
+.login-page button{
+    padding: 10px 16px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(31, 182, 99);
+}
+/* login ends here */
+/* deposit starts here */
+.transaction-area{
+    display: none;
+}
+.row1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.row1 div{
+    width: 70%;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    text-align: center;
+}
+.deposit{
+    background-color: rgb(86, 60, 199);
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
+.row2{
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.row2 div{
+    width: 80%;
+    border-radius: 10px;
+    padding: 40px 20px;
+    box-shadow: 3px 3px 6px #333;
+}
+.row2 input{
+    padding: 5px;
+    font-size: 17px;
+    width: 100%;
+    margin: 10px 0;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(185, 176, 176);
+}
+.btn{
+    padding: 5px 16px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 7px;
+    background-color: rgb(20, 163, 84);
+}
